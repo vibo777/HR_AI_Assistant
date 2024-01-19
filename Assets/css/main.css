@@ -116,13 +116,13 @@
   }
   
   /*--------------------------------------------------------------
-  # Hero Section
+  # Searchbar Section
   --------------------------------------------------------------*/
-  .hero {
+  .searchbar {
     width: 100%;
     min-height: 100vh;
     background-color: var(--color-secondary);
-    background-image: url("../img/hero-bg.png");
+    background-image: url("../img/searchbar-bg.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -130,7 +130,7 @@
     color: rgba(255, 255, 255, 0.8);
   }
   
-  .hero h2 {
+  .searchbar h2 {
     margin-bottom: 20px;
     padding: 0;
     font-size: 48px;
@@ -139,24 +139,24 @@
   }
   
   @media (max-width: 575px) {
-    .hero h2 {
+    .searchbar h2 {
       font-size: 30px;
     }
   }
   
-  .hero p {
+  .searchbar p {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 40px;
   }
   
-  .hero form {
+  .searchbar form {
     background: #fff;
     padding: 10px;
     border-radius: 10px;
   }
   
-  .hero form .form-control {
+  .searchbar form .form-control {
     height: 100%;
     padding-top: 18px;
     padding-bottom: 18px;
@@ -168,27 +168,27 @@
     background: none !important;
   }
   
-  .hero form .form-control:hover,
-  .hero form .form-control:focus {
+  .searchbar form .form-control:hover,
+  .searchbar form .form-control:focus {
     outline: none;
     box-shadow: none;
   }
   
-  .hero form .btn-primary {
+  .searchbar form .btn-primary {
     background-color: var(--color-primary);
     padding: 15px 30px;
   }
   
-  .hero form .btn-primary:hover {
+  .searchbar form .btn-primary:hover {
     background-color: #2756ff;
   }
   
-  .hero .stats-item {
+  .searchbar .stats-item {
     padding: 30px;
     width: 100%;
   }
   
-  .hero .stats-item span {
+  .searchbar .stats-item span {
     font-size: 32px;
     display: block;
     font-weight: 700;
@@ -197,7 +197,7 @@
     position: relative;
   }
   
-  .hero .stats-item span:after {
+  .searchbar .stats-item span:after {
     content: "";
     position: absolute;
     display: block;
@@ -210,7 +210,7 @@
     margin: auto;
   }
   
-  .hero .stats-item p {
+  .searchbar .stats-item p {
     padding: 0;
     margin: 0;
     font-family: var(--font-primary);

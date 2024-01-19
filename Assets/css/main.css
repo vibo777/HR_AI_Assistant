@@ -217,5 +217,24 @@
     font-size: 15px;
     font-weight: 600;
   }
+
+  /*--------------------------------------------------------------
+  # File_upload Section
+  --------------------------------------------------------------*/
   
- 
+  input#formFileLg {
+    height: 53px;
+  }
+  .form-control[type="file"]:not(:disabled):not([readonly]) {
+    cursor: pointer;
+  }
+  .form-control[type="file"] {
+    overflow: hidden;
+  }
+  .form-control-lg {
+    min-height: calc(2.58125rem + 2px);
+    padding: 0.4rem 1rem;
+    font-size: 1.1875rem;
+    border-radius: 0.3rem;
+  }
+   
